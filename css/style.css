@@ -1,0 +1,18 @@
+:root {
+  --color-principal: #3498db;
+
+  font-family: "Arial", sans-serif;
+}
+
+/* comentario */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+#menu-links {
+  background-color: var(--color-principal);
+}
