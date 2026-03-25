@@ -1,3 +1,1 @@
-## Grupo n° ...
 
-## Integrantes:
