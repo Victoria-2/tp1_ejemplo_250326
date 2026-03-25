@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto - Pastelería N°1</title>
+    <meta
+      name="description"
+      content="Contáctanos en Pastelería N°1. Tienes dudas o sugerencias? ¡Estamos aquí para ayudarte!"
+    />
+    <link
+      rel="shortcut icon"
+      href="../assets/favicon/pasteleria_logo.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!-- Estructura básica de una página web -->
+    <header>
+      <div id="menu-logo">
+        <h1>Pastelería N°1</h1>
+        <img
+          src="../assets/favicon/pasteleria_logo.png"
+          alt="Logo de Pastelería N°1"
+        />
+      </div>
+
+      <div id="menu-links">
+        <nav>
+          <a href="../index.html">Inicio</a>
+          <a href="../pages/servicios.html"> Servicios</a>
+          <a href="../pages/equipo.html">Equipo</a>
+          <a href="../pages/pedido.html">Realizar pedido</a>
+          <a href="../pages/contacto.html">Consultas</a>
+          <a href="../pages/faq.html">Preguntas frecuentes</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Contenido principal de la página -->
+    <main>
+      <section id="form-contacto">
+        <h2>Realizar una consulta</h2>
+        <p>
+          ¿Tienes dudas o sugerencias? ¡Estamos aquí para ayudarte!
+          <br />
+          Completa el siguiente formulario y nos pondremos en contacto contigo
+          lo antes posible.
+        </p>
+
+        <form>
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" required />
+
+          <label for="apellido">Apellido</label>
+          <input type="text" id="apellido" name="apellido" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="telefono">Teléfono</label>
+          <input type="tel" id="telefono" name="telefono" />
+
+          <p>Motivo de la consulta:</p>
+
+          <input type="radio" id="consulta-producto" name="motivo" />
+          <label for="consulta-producto">Consulta sobre productos</label>
+
+          <input type="radio" id="consulta-evento" name="motivo" />
+          <label for="consulta-evento">Consulta para eventos</label>
+
+          <input type="radio" id="consulta-otro" name="motivo" />
+          <label for="consulta-otro">Otro</label>
+
+          <label for="servicio">Servicio de interés</label>
+          <select id="servicio" name="servicio">
+            <option>Pasteles personalizados</option>
+            <option>Postres y bocadillos</option>
+            <option>Catering</option>
+          </select>
+
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+
+          <input type="checkbox" id="newsletter" />
+          <label for="newsletter">Quiero recibir novedades y promociones</label>
+
+          <button type="submit">Enviar consulta</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Pie de página de la página -->
+    <footer>
+      <p>
+        Copyright &copy; 2026 Pastelería N°1. Todos los derechos reservados.
+      </p>
+    </footer>
+  </body>
+</html>

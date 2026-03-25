@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto - Pastelería N°1</title>
+    <meta
+      name="description"
+      content="Contáctanos en Pastelería N°1. Tienes dudas o sugerencias? ¡Estamos aquí para ayudarte!"
+    />
+    <link
+      rel="shortcut icon"
+      href="../assets/favicon/pasteleria_logo.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!-- Estructura básica de una página web -->
+    <header>
+      <div id="menu-logo">
+        <h1>Pastelería N°1</h1>
+        <img
+          src="../assets/favicon/pasteleria_logo.png"
+          alt="Logo de Pastelería N°1"
+        />
+      </div>
+
+      <div id="menu-links">
+        <nav>
+          <a href="../index.html">Inicio</a>
+          <a href="../pages/servicios.html"> Servicios</a>
+          <a href="../pages/equipo.html">Equipo</a>
+          <a href="../pages/pedido.html">Realizar pedido</a>
+          <a href="../pages/contacto.html">Consultas</a>
+          <a href="../pages/faq.html">Preguntas frecuentes</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Contenido principal de la página -->
+    <main>
+      <section id="form-pedido">
+        <h2>Realizar un pedido</h2>
+
+        <form>
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" required />
+
+          <label for="telefono">Teléfono</label>
+          <input type="tel" id="telefono" name="telefono" required />
+
+          <label for="fecha">Fecha del evento</label>
+          <input type="date" id="fecha" name="fecha" />
+
+          <br />
+
+          <label for="tipo-pastel">Tipo de producto</label>
+          <select id="tipo-pastel" name="producto">
+            <option>Pastel personalizado</option>
+            <option>Cupcakes</option>
+            <option>Postres surtidos</option>
+            <option>Catering para evento</option>
+          </select>
+
+          <br />
+
+          <p>Tamaño del pastel</p>
+
+          <input type="radio" id="chico" name="tamano" />
+          <label for="chico">Pequeño</label>
+
+          <input type="radio" id="mediano" name="tamano" />
+          <label for="mediano">Mediano</label>
+
+          <input type="radio" id="grande" name="tamano" />
+          <label for="grande">Grande</label>
+
+          <br /><br />
+
+          <p>Sabores</p>
+
+          <input type="checkbox" id="chocolate" />
+          <label for="chocolate">Chocolate</label>
+
+          <input type="checkbox" id="vainilla" />
+          <label for="vainilla">Vainilla</label>
+
+          <input type="checkbox" id="frutilla" />
+          <label for="frutilla">Frutilla</label>
+
+          <input type="checkbox" id="dulce-leche" />
+          <label for="dulce-leche">Dulce de leche</label>
+
+          <br /><br />
+
+          <label for="color">Color principal del pastel</label>
+          <input type="color" id="color" name="color" />
+
+          <br /><br />
+
+          <label for="imagen">Subir referencia de diseño</label>
+          <input type="file" id="imagen" name="imagen" />
+
+          <br /><br />
+
+          <label for="comentarios">Detalles del pedido</label>
+
+          <textarea id="comentarios" name="comentarios" rows="4"></textarea>
+
+          <br /><br />
+
+          <button type="submit">Enviar pedido</button>
+          <button type="reset">Limpiar formulario</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Pie de página de la página -->
+    <footer>
+      <p>
+        Copyright &copy; 2026 Pastelería N°1. Todos los derechos reservados.
+      </p>
+    </footer>
+  </body>
+</html>
