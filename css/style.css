@@ -82,6 +82,32 @@ footer p {
   vertical-align: bottom;
 }
 
+/* página inicio */
+main {
+  height: 480px;
+}
+
+#hero {
+  text-align: center;
+}
+
+#hero button {
+  text-align: center;
+}
+
+#hero h1 {
+  display: inline-block;
+  vertical-align: left;
+  text-align: center;
+  width: 50%;
+}
+#hero p {
+  display: inline-block;
+  vertical-align: center;
+  text-align: right;
+  width: 40%;
+}
+
 /* página servicios */
 #contenedor {
   text-align: center;
