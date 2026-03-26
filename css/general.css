@@ -1,28 +1,46 @@
+/* colores */
 :root {
-  /* Colores principales de la pastelería */
-
   --color-crema: #f5deb3;
   --color-marron: #8b5a2b;
   --color-marron-oscuro: #5c3a1e;
   --color-dorado: #d2691e;
-
-  /* Colores de fondo */
-
   --color-fondo: #fffaf3;
-
-  /* Texto */
-
   --color-texto: #3b2a1a;
   --color-texto-claro: #ffffff;
 }
 
-/* comentario */
+/* menú nav*/
+header {
+  width: auto;
+  background-color: var(--color-crema);
+  border-bottom: 4px solid var(--color-marron);
+  padding: 12px;
+}
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
+header h1 {
+  border: var(--border-ref);
+}
+
+header nav {
+  border: var(--border-ref);
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--color-marron-oscuro);
+  font-family: var(--fuente-principal);
+  font-weight: bold;
+  margin: 8px;
+}
+
+nav a:hover {
+  color: var(--color-dorado);
+}
+
+#menu-logo {
+  display: inline-block;
+  width: 20%;
+  vertical-align: middle;
 }
 
 #menu-links {
@@ -62,32 +80,6 @@ footer {
 footer p {
   display: inline-block;
   vertical-align: bottom;
-}
-
-/* página inicio */
-main {
-  height: 480px;
-}
-
-#hero {
-  text-align: center;
-}
-
-#hero button {
-  text-align: center;
-}
-
-#hero h1 {
-  display: inline-block;
-  vertical-align: left;
-  text-align: center;
-  width: 50%;
-}
-#hero p {
-  display: inline-block;
-  vertical-align: center;
-  text-align: right;
-  width: 40%;
 }
 
 /* página servicios */
