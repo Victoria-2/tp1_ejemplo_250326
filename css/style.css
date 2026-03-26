@@ -1,7 +1,19 @@
 :root {
-  --color-principal: #3498db;
+  /* Colores principales de la pastelería */
 
-  font-family: "Arial", sans-serif;
+  --color-crema: #f5deb3;
+  --color-marron: #8b5a2b;
+  --color-marron-oscuro: #5c3a1e;
+  --color-dorado: #d2691e;
+
+  /* Colores de fondo */
+
+  --color-fondo: #fffaf3;
+
+  /* Texto */
+
+  --color-texto: #3b2a1a;
+  --color-texto-claro: #ffffff;
 }
 
 /* comentario */
@@ -14,5 +26,99 @@ nav {
 }
 
 #menu-links {
-  background-color: var(--color-principal);
+  display: inline-block;
+  width: 79%;
+  text-align: right;
+  vertical-align: middle;
+}
+
+#menu-logo h1 {
+  display: inline-block;
+}
+
+#menu-logo img {
+  display: inline-block;
+  width: 60px;
+  vertical-align: middle;
+  margin-left: 8px;
+}
+
+/* contenido página */
+
+main {
+  margin: 20px;
+}
+
+/* footer */
+footer {
+  display: inline-block;
+  text-align: center;
+  width: 98%;
+  background-color: var(--color-marron-oscuro);
+  color: var(--color-fondo);
+  padding: 12px;
+}
+
+footer p {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+/* página inicio */
+main {
+  height: 480px;
+}
+
+#hero {
+  text-align: center;
+}
+
+#hero button {
+  text-align: center;
+}
+
+#hero h1 {
+  display: inline-block;
+  vertical-align: left;
+  text-align: center;
+  width: 50%;
+}
+#hero p {
+  display: inline-block;
+  vertical-align: center;
+  text-align: right;
+  width: 40%;
+}
+
+/* página servicios */
+#contenedor {
+  text-align: center;
+  width: 100%;
+}
+
+.card {
+  display: inline-block;
+  width: 28%;
+  min-height: 320px;
+  vertical-align: top;
+  border: 2px solid var(--color-marron-oscuro);
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px;
+}
+
+.card-img img {
+  border-radius: 100%;
+  width: 120px;
+  height: 120px;
+}
+
+.card-descripcion h3,
+.card-valor {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.card-descripcion p {
+  text-align: justify;
 }
