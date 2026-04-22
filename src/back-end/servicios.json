@@ -1,0 +1,7 @@
+[
+  { "id": 1, "precio": 25, "desc": "Pastel Personalizado" },
+  { "id": 2, "precio": 15, "desc": "Postres y Bocadillos" },
+  { "id": 3, "precio": 50, "desc": "Servicio de Catering" },
+  { "id": 4, "precio": 10, "desc": "Caja de Cupcakes" },
+  { "id": 5, "precio": 5, "desc": "Café para Llevar" }
+]
