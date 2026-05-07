@@ -7,6 +7,34 @@
   --color-fondo: #fffaf3;
   --color-texto: #3b2a1a;
   --color-texto-claro: #ffffff;
+   --color-loader: #ff69b4;
+}
+
+/* loader */
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.loader {
+  border: 8px solid var(--color-crema);
+  border-top: 8px solid var(--color-loader);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 /* menú nav*/
